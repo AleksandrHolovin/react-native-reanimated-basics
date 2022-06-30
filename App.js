@@ -8,11 +8,12 @@
 
 import React from 'react';
 import { Introduction } from './src/pages/Introduction/Introduction';
+import { PanGestureBasics } from './src/pages/PanGestureBasics/PanGestureBasics'
 
 const App: () => Node = () => {
 
   return (
-    <Introduction />
+    <PanGestureBasics />
   );
 };
 
